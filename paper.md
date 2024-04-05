@@ -28,10 +28,6 @@ biohackathon_url: https://b-cubed.eu/b-cubed-hackathon
 biohackathon_location: Brussels, Belgium
 ---
 
-Certainly, here's the revised introduction in British English, formatted in Markdown:
-
----
-
 ## Abstract
 This investigation uses biodiversity data cubes, derived from the extensive datasets of the Global Biodiversity Information Facility (GBIF), to conduct a detailed analysis of sex ratios within ducks across Europe. Encompassing over ???? million occurrences extracted from nearly ???? datasets, this study elucidates sex distribution patterns across various species, focussing on temporal and spatial dynamics. Through the strategic exclusion of the `dwc:individualCount` from our analysis to simplify the initial approach, we aim to provide a foundational understanding of sex ratio variations and how they could be use to monitor population status and trends of biodiversity.
 
@@ -43,6 +39,10 @@ Our analytical framework is predicated on a selective extraction from the GBIF d
 
 ## Results
 The application of geospatial and temporal analytical techniques has unveiled significant insights into the sex ratio distribution across the European continent. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations. This detailed exploration provides a nuanced understanding of sex ratio dynamics, showcasing the areas and times of notable deviations.
+
+Taking the mallard as an example a timeseries of male to female ratio has been produced.
+
+![A timeseries of duck sex ration for **Anas platyrhynchos** in Europe agregated to decade](./figures/ratiotimeseries.jpg) 
 
 ## Discussion
 The findings from this study highlight the intricate relationship between sex ratios and environmental, biological, and anthropogenic factors. The use of biodiversity data cubes derived from GBIF data represents a novel approach to biodiversity studies, allowing for large-scale analysis that was previously unattainable. This research not only contributes valuable insights into sex ratio analysis but also demonstrates the potential of biodiversity data cubes in advancing ecological and conservation science.
