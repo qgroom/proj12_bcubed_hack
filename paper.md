@@ -1,8 +1,12 @@
 ---
 title: 'An analysis of sex ratios using a biodiversity data cube'
 tags:
-  - Shiny
+  - ducks
   - biodiversity indicators
+  - Anatidae
+  - Europe
+  - mapping
+  - GBIF
 authors:
   - name: Quentin Groom
     orcid: 0000-0002-0596-5376
