@@ -42,7 +42,7 @@ The application of geospatial and temporal analytical techniques has unveiled si
 
 Taking the mallard as an example a timeseries of male to female ratio has been produced.
 
-![A timeseries of duck sex ration for **Anas platyrhynchos** in Europe agregated to decade](./figures/ratiotimeseries.jpg) 
+![A timeseries of duck sex ration for *Anas platyrhynchos* in Europe agregated to decade](./figures/ratiotimeseries.jpg) 
 
 ## Discussion
 The findings from this study highlight the intricate relationship between sex ratios and environmental, biological, and anthropogenic factors. The use of biodiversity data cubes derived from GBIF data represents a novel approach to biodiversity studies, allowing for large-scale analysis that was previously unattainable. This research not only contributes valuable insights into sex ratio analysis but also demonstrates the potential of biodiversity data cubes in advancing ecological and conservation science.
