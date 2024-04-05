@@ -11,6 +11,9 @@ authors:
   - name: Quentin Groom
     orcid: 0000-0002-0596-5376
     affiliation: 1
+  - name: Maarten Trekels
+    orcid: 0000-0001-8282-8765
+    affiliation: 1
 
 affiliations:
  - name: Meise Botanic Garden, Nieuwelaan 38, 1860 Meise, Belgium
