@@ -84,7 +84,12 @@ Since the turn of the millennium the volume of records with sex information has 
 ![A map of the percentage of male ducks for *Anas platyrhynchos* in Europe aggregate to a 10 km using the EEA grid](./figures/duckmap.jpg) 
 
 ## Discussion
-The findings from this study highlight the intricate relationship between sex ratios and environmental, biological, and anthropogenic factors. The use of biodiversity data cubes derived from GBIF data represents a novel approach to biodiversity studies, allowing for large-scale analysis that was previously unattainable. This research not only contributes valuable insights into sex ratio analysis but also demonstrates the potential of biodiversity data cubes in advancing ecological and conservation science.
+Geospatial and temporal visualisation has unveiled insights into the sex ratio distribution of Anatidae across Europe. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations. 
+
+The findings from this study highlight the intricate relationship between sex ratios, the environment, biology, and anthropogenic factors. The use of biodiversity data cubes derived from GBIF data represents a novel approach to biodiversity studies, allowing for large-scale analysis that was previously unattainable. This research not only contributes insights into sex ratio analysis but also demonstrates the potential of biodiversity data cubes in advancing ecological and conservation science.
+
+Most species in our results are male biassed and that is consistent with other estimates in the literature ([@10.1007/s10336-019-01682-7], [@10.1111/j.1474-919X.2007.00724.x], [@donald2007adult
+]). In the case of *Somateria mollissima* where ratios tend to be female biassed, this is also consistent with the literature ([@10.2981/0909-6396(2008)14[288:LCITSR]2.0.CO;2]).
 
 However, a significant challenge in accurately assessing these ratios stems from the differential detectability of males and females in many species. Factors such as behavioural differences, sexual dimorphism, and varying habitat preferences can substantially influence the likelihood of observing and recording individuals of each sex. This variability in detectability complicates the interpretation of raw sex ratio data, potentially skewing our understanding of population dynamics. By aggregating vast amounts of occurrence data, these cubes potentially allow for the application of analytical techniques to address the issue of differential detectability. 
 
