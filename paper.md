@@ -53,9 +53,24 @@ Through the strategic exclusion of the `dwc:individualCount` from our analysis t
 Our analytical framework is predicated on a selective extraction from the GBIF dataset, focusing on records designated as "PRESENT" while excluding data compromised by spatial inaccuracies. The analysis was facilitated by Python’s scientific stack, including pandas for data manipulation, Matplotlib and seaborn for visualisation, and GeoPandas with Shapely for spatial analysis. This study processes the derived biodiversity data cube, augmenting it with necessary spatial and temporal attributes, and preparing it for analysis.
 
 ## Results
-The application of geospatial and temporal analytical techniques has unveiled significant insights into the sex ratio distribution across the European continent. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations. This detailed exploration provides a nuanced understanding of sex ratio dynamics, showcasing the areas and times of notable deviations.
+The amount of sex data is likely to be higher for clearly sexually dimorphic species. To test this, the script extracts species for which the total number of records is over 10,000. The proportion of male plus female records was compared with the total number of all records for both sexually monomorphic (23) and dimorphic species (31). For monomorphic species there are only about 5.5 records with a recorded sex per 1000 records, whereas for dimorphic species that number is 138.7, which is 25 times more.
 
-Taking the mallard as an example a timeseries of male to female ratio has been produced.
+Table 1. The proportion of males of the most widespread sexually dimorphic ducks in Europe.
+
+| Species                               | Vernacular name   | total number of records | proportion of males |
+|---|---|:-:|:-:|
+| *Anas platyrhynchos* L., 1758     | Mallard           |                 1.54 |
+| *Aythya fuligula* (L., 1758)      | Tufted Duck       |                1.39 |
+| *Anas crecca* L., 1758            | Eurasian Teal     |               1.54 |
+| *Mareca strepera* (L., 1758)      | Gadwall           |             2.29 |
+| *Bucephala clangula* (L., 1758)   | Common Goldeneye  |                 1.12 |
+| *Mareca penelope* (L., 1758)      | Eurasian Wigeon   |                 2.10 |
+| *Spatula clypeata* (L., 1758)     | Northern Shoveler |                2.52 |
+| *Somateria mollissima* (L., 1758) | Common Eider      |                 0.53 |
+| *Aythya ferina* (L., 1758)        | Common Pochard    |                2.14 |
+| *Mergus merganser* L., 1758       | Common Merganser  |                1.41 |
+
+Taking the mallard as an example a time series of male to female ratio has been produced. For sexually monomorphic species 
 
 Since the turn of the millennium the volume of records with sex information has increased considerably (Fig. 1). The proportion of male birds is larger in recent decades, and generally there are more males than females, at least for the decades after the 1970s. Still, in the 1950s there are exceptionally considerably more females than males. This can be attributed to two datasets, both of which related to ringing and recovery data ([@10.15468/6l4ban]. [@10.15468/yf8wjf]).
 
