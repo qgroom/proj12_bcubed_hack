@@ -62,6 +62,8 @@ Taking the mallard as an example a timeseries of male to female ratio has been p
 
 ![The total number of male and female records of for *Anas platyrhynchos* in Europe aggregate to decade](./figures/count.jpg) 
 
+*Anas platyrhynchos* is widely distributed across Europe, however, records that hold sex information are not homogeneously distributed. For example, Denmark, Estonia and Norway have large quantities of sex data, while Ireland, Portugal, Spain and many Eastern European countries have little (Fig. 3). Most countries have a higher proportion of males than females, with the exception of Finland and France. In Finland the data largely come from a ringing and recovery dataset ([@10.15468/kht1r3]) containing both records of males and females. In France the data also largely come  from a single ringing and recovery dataset ([@10.15468/yf8wjf]). However, in this case, although the dataset contains over two million records, none of them are annotated as male, and about half a million are annotated as female. This results in the large patches of female dominated areas in France, such as in the Camargue, are the result of this dataset (Fig. 3). Another feature of the distribution of sex data is that clusters of data in large cities, including London, Madrid, Prague, Paris and Vienna.
+
 ![A map of the percentage of male duckls for *Anas platyrhynchos* in Europe aggregate to a 10 km using the EEA grip](./figures/duckmap.jpg) 
 
 ## Discussion
