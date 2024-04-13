@@ -57,7 +57,7 @@ The amount of sex data is likely to be higher for clearly sexually dimorphic spe
 
 Table 1. The proportion of males of the most widespread sexually dimorphic ducks in Europe.
 
-| Species                               | Vernacular name   | total number of records | proportion of males |
+| Species                               | Vernacular name   | proportion of males |
 |---|---|:-:|:-:|
 | *Anas platyrhynchos* L., 1758     | Mallard           |                 1.54 |
 | *Aythya fuligula* (L., 1758)      | Tufted Duck       |                1.39 |
@@ -69,6 +69,7 @@ Table 1. The proportion of males of the most widespread sexually dimorphic ducks
 | *Somateria mollissima* (L., 1758) | Common Eider      |                 0.53 |
 | *Aythya ferina* (L., 1758)        | Common Pochard    |                2.14 |
 | *Mergus merganser* L., 1758       | Common Merganser  |                1.41 |
+
 
 Taking the mallard as an example a time series of male to female ratio has been produced. For sexually monomorphic species 
 
