@@ -52,10 +52,12 @@ Through the strategic exclusion of the `dwc:individualCount` from our analysis t
 
 Shape files of the European borders were sources from Natural Earth. Free vector and raster map data @ naturalearthdata.com.
 
-Our analytical framework is predicated on a selective extraction from the GBIF dataset, focusing on records designated as "PRESENT" while excluding data compromised by spatial inaccuracies. The analysis was facilitated by Python’s scientific stack, including pandas for data manipulation, Matplotlib and seaborn for visualisation, and GeoPandas with Shapely for spatial analysis. This study processes the derived biodiversity data cube, augmenting it with necessary spatial and temporal attributes, and preparing it for analysis. Kriging was conducted using PyKrige [@10.5281/zenodo.10016909].
+Our analytical framework is predicated on a selective extraction from the GBIF dataset, focusing on records designated as "PRESENT" while excluding data compromised by spatial inaccuracies. The analysis was facilitated by Python’s scientific stack, including pandas for data manipulation, Matplotlib and seaborn for visualisation, and GeoPandas with Shapely for spatial analysis. This study processes the derived biodiversity data cube, augmenting it with necessary spatial and temporal attributes, and preparing it for analysis. Kriging was conducted using PyKrige with a hole-effect variogram_model [@10.5281/zenodo.10016909]. Versions of Python packages are detailed in table 1.
+
+Table 1. Versions of Python packages used
 
 |   Package  | version |                  Website                  |
-|:----------:|:-------:|:-----------------------------------------:|
+|----------|-------|-----------------------------------------|
 | geopandas  | 0.14.3  | https://geopandas.org/en/stable/          |
 | matplotlib | 3.7.1   | https://matplotlib.org/                   |
 | numpy      | 1.24.3  | https://numpy.org/                        |
@@ -98,7 +100,7 @@ Owing to the patchy distribution of records, interpolation can be a useful way t
 ![An interpolated map of the proportion of males of *Anas platyrhynchos* and the associated kriging error](./figures/european_males_interpolation_and_error.jpg) 
 
 ## Discussion
-Geospatial and temporal visualisation has unveiled insights into the sex ratio distribution of Anatidae across Europe. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations (Fig. 1 & 2).
+Geospatial and temporal visualisation has unveiled insights into the sex ratio distribution of Anatidae across Europe. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations (Fig. 1 & Fig. 2).
 
 Most species in our results are male biassed and that is consistent with other estimates in the literature [@Wildfowl731; @10.1007/s10336-019-01682-7; @10.1111/j.1474-919X.2007.00724.x]. In the case of *Somateria mollissima* where ratios tend to be female biassed, this is also consistent with the literature [@10.2981/0909-6396].
 
