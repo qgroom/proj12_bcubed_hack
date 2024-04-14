@@ -83,7 +83,7 @@ Since the turn of the millennium the volume of records with sex information has 
 
 Owing to the patchy distribution of records, interpolation can be a useful way to illustrate patterns in sex ratio, because it smooths some of the roughness of the data and gives more local weight to isolated points (Fig. 4). 
 
-![An interpolated map of the proportion of males of *Anas platyrhynchos*](./figures/duckinterpolatedmap.jpg) 
+![An interpolated map of the proportion of males of *Anas platyrhynchos*](./figures/european_males_interpolation_and_error.jpg) 
 
 ## Discussion
 Geospatial and temporal visualisation has unveiled insights into the sex ratio distribution of Anatidae across Europe. Visualisation of male and female counts over decades has revealed discernible patterns and anomalies, indicating both temporal fluctuations and spatial variations (Fig. 1 & 2).
