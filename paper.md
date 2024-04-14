@@ -68,9 +68,9 @@ Table 1. Versions of Python packages used
 ## Results
 The amount of sex data is likely to be higher for clearly sexually dimorphic species. To test this, the script extracts species for which the total number of records is over 10,000 to provide a substantial sample upon which to calculate proportions. The proportion of male plus female records was compared with the total number of all records for both sexually monomorphic (23) and dimorphic species (31) in this subsample. For monomorphic species there is an average of about 5.5 records with a recorded sex per 1000 records  total, whereas for dimorphic species that average is 138.7; 25 times more.
 
-Most dimorphic species have a higher proportion of males, in some cases well over two males for each female (Table 1). However, two species *Mergellus albellus* and *Somateria mollissima* have more females than males.
+Most dimorphic species have a higher proportion of males, in some cases well over two males for each female (Table 2). However, two species *Mergellus albellus* and *Somateria mollissima* have more females than males.
 
-Table 1. The proportion of males of the most widespread sexually dimorphic ducks in Europe.
+Table 2. The proportion of males of the most widespread sexually dimorphic ducks in Europe.
 
 | Species                               | Vernacular name   | proportion of males |
 |---|---|:-:|:-:|
