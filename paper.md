@@ -52,6 +52,8 @@ We strategically excluded any data in the Darwin Core field `dwc:individualCount
 
 Shape files of the European borders were sourced from Natural Earth [naturalearthdata.com](https://www.naturalearthdata.com/).
 
+The Jupyter notebook code used got analysis has been archive on Zenono [@quentin_groom_2024_12793620].
+
 Our analytical framework is predicated on a selective extraction from the GBIF dataset, focusing on records designated as "PRESENT" while excluding data compromised by spatial inaccuracies. The analysis was facilitated by Python’s scientific stack, including pandas for data manipulation, Matplotlib and seaborn for visualisation, and GeoPandas with Shapely for spatial analysis. This study processes the derived biodiversity data cube, augmenting it with necessary spatial and temporal attributes, and preparing it for analysis. Kriging was conducted using PyKrige with a hole-effect variogram_model [@10.5281/zenodo.10016909]. Versions of Python packages are detailed in table 1. Writing of the code was significantly assisted by the use of ChatGTP 4.
 
 Table 1. Versions of Python packages used
